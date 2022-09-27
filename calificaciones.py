@@ -6,7 +6,7 @@ def calcula_nota_cuatrimestre(c1,c2,c3,p,pry):
         return 0.1*(c1+c2+c3)+0.6*p+0.1*pry
     else:
         return 3
-#Comentario de prueba
+#Comentario de prueb
 def calcula_nota_evaluacion_continua(cuestionarios,parciales,proyectos):
     nota1 = 0.1*(cuestionarios[0]+cuestionarios[1]+cuestionarios[2]) + 0.6 * parciales[0] + 0.1*proyectos[0] 
     nota2 = 0.1*(cuestionarios[3]+cuestionarios[4]+cuestionarios[5]) + 0.6 * parciales[1] + 0.1*proyectos[1] 
